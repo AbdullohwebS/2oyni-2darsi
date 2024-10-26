@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(32, 81, 173, 0.855);
+}
+.container{
+    border-radius: 15px;
+    box-shadow: 6px 6px 30px black;
+    background-color: white;
+    width: 850px;
+    margin-left: 380px;
+    margin-top: 150px;
+    height: 300px;
+    transition: 0.9s;
+}
+.container:hover{
+    margin-left: 400px;
+    margin-left: 300px;
+    margin-top: 100px;
+    transition: 0.9s;
+    width: 950px;
+    height: 500px;
+}
+.box1{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.box1 img{
+    margin-top: -20px;
+    width: 150px;
+    margin-left: 80px;
+    transition: 0.9s;
+}
+.container:hover img{
+    transition: 0.9s;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.box1 p{
+    transition: 0.9s;
+    margin-left: 115px;
+    margin-top: 10px;
+    color: rgb(36, 78, 214);
+}
+.container:hover h1{
+    transition: 0.9s;
+    margin-left: 120px;
+}
+.container:hover p{
+    transition: 0.9s;
+    margin-left: 152px;
+}
+.box1 h1{
+    transition: 0.9s;
+    font-size: 15px;
+    color: rgb(36, 78, 214);
+    margin-left: 80px;
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box2{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.box2 img{
+    transition: 0.9s;
+    margin-top: -100px;
+    display: block;
+    width: 150px;
+    margin-left: 80px;
+}
+.box2 p{
+    transition: 0.9s;
+    margin-left: 120px;
+    margin-top: 10px;
+    color: rgb(36, 78, 214);
+}
+.container:hover .box2 p{
+    margin-left: 160px;
+    transition: 0.9s;
+}
+.box2 h1{
+    transition: 0.9s;
+    font-size: 15px;
+    color: rgb(36, 78, 214);
+    margin-left: 70px;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
